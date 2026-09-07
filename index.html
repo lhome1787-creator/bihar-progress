@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bihar Progress</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+</head>
+
+<body>
+
+    <header>
+
+    <div class="top-header">
+
+        <div class="logo">
+            🗺️ BIHAR PROGRESS
+        </div>
+
+        <nav>
+            <a href="#home">होम</a>
+            <a href="#map">बिहार का नक्शा</a>
+            <a href="#dashboard">जिला Dashboard</a>
+            <a href="#about">हमारे बारे में</a>
+        </nav>
+
+    </div>
+
+    <div id="home" class="hero">
+
+        <h1>बिहार प्रोग्रेस</h1>
+
+        <p>
+            बिहार के 38 जिलों की जानकारी एक ही जगह
+        </p>
+
+        <button onclick="document.getElementById('districtSelect').focus()">
+            🔎 जिला खोजें
+        </button>
+
+    </div>
+
+</header>
+
+    <main>
+
+        <!-- BIHAR OVERVIEW -->
+<section class="bihar-overview">
+
+    <h2>बिहार के बारे में</h2>
+
+    <p class="overview-text">
+        बिहार भारत के महत्वपूर्ण राज्यों में से एक है।
+        बिहार प्रोग्रेस के माध्यम से बिहार के सभी 38 जिलों की
+        महत्वपूर्ण जानकारी एक ही जगह पर देखने का प्रयास किया गया है।
+    </p>
+
+    <div class="overview-cards">
+
+        <div class="overview-card">
+            <div class="overview-icon">🗺️</div>
+            <h3>38 जिले</h3>
+            <p>बिहार के सभी 38 जिलों की जानकारी</p>
+        </div>
+
+        <div class="overview-card" onclick="showEducation()">
+    <div class="overview-icon">📚</div>
+    <h3>शिक्षा</h3>
+    <p>जिलेवार शिक्षा और साक्षरता की जानकारी</p>
+</div>
+
+        <div class="overview-card">
+            <div class="overview-icon">🏥</div>
+            <h3>स्वास्थ्य</h3>
+            <p>अस्पताल और स्वास्थ्य सुविधाओं की जानकारी</p>
+        </div>
+
+        <div class="overview-card">
+            <div class="overview-icon">🌾</div>
+            <h3>कृषि</h3>
+            <p>मुख्य फसल और कृषि से जुड़ी जानकारी</p>
+        </div>
+
+        <div class="overview-card">
+            <div class="overview-icon">👥</div>
+            <h3>जनसंख्या</h3>
+            <p>जिलेवार जनसंख्या संबंधी जानकारी</p>
+        </div>
+
+        <div class="overview-card">
+            <div class="overview-icon">🛣️</div>
+            <h3>परिवहन</h3>
+            <p>सड़क, रेलवे और परिवहन की जानकारी</p>
+        </div>
+
+    </div>
+
+</section>
+
+        <h2>जिला चुनें</h2>
+
+        <input
+    type="text"
+    id="districtSearch"
+    placeholder="🔎 जिला खोजें..."
+>
+
+        <select id="districtSelect">
+
+            <option value="">
+                -- जिला चुनें --
+            </option>
+
+        </select>
+
+
+        <section class="map-section">
+
+            <div class="section-title">
+
+                <h2>🗺️ बिहार का नक्शा</h2>
+
+                <p>
+                    बिहार के जिलों की जानकारी देखें
+                </p>
+
+            </div>
+
+            <div class="map-container">
+
+                <div id="biharMap"></div>
+
+            </div>
+
+        </section>
+
+        <!-- ==========================================
+     DISTRICT DASHBOARD
+========================================== -->
+
+<section id="dashboard" class="district-dashboard hidden">
+
+    <div class="section-title">
+        <h2>📊 <span id="districtTitle">जिला Dashboard</span></h2>
+        <p>चयनित जिले की महत्वपूर्ण जानकारी</p>
+    </div>
+
+    <!-- मुख्य जनसंख्या आंकड़े -->
+    <div class="dashboard-section">
+
+        <h3>👥 मुख्य जनसंख्या आंकड़े</h3>
+
+        <div class="dashboard-grid">
+
+            <div class="dashboard-card">
+                <span>👥</span>
+                <h4>कुल जनसंख्या</h4>
+                <strong id="population">जानकारी उपलब्ध नहीं</strong>
+            </div>
+
+            <div class="dashboard-card">
+                <span>🗺️</span>
+                <h4>क्षेत्रफल</h4>
+                <strong id="area">जानकारी उपलब्ध नहीं</strong>
+            </div>
+
+            <div class="dashboard-card">
+                <span>📈</span>
+                <h4>जनसंख्या घनत्व</h4>
+                <strong id="density">जानकारी उपलब्ध नहीं</strong>
+            </div>
+
+            <div class="dashboard-card">
+                <span>⚖️</span>
+                <h4>लिंगानुपात</h4>
+                <strong id="sexRatio">जानकारी उपलब्ध नहीं</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- शिक्षा -->
+    <div class="dashboard-section">
+
+        <h3>📚 शिक्षा</h3>
+
+        <div class="dashboard-grid">
+
+            <div class="dashboard-card">
+                <span>📖</span>
+                <h4>साक्षरता दर</h4>
+                <strong id="literacy">जानकारी उपलब्ध नहीं</strong>
+            </div>
+
+            <div class="dashboard-card">
+                <span>👨‍🎓</span>
+                <h4>पुरुष साक्षरता</h4>
+                <strong id="maleLiteracy">जानकारी उपलब्ध नहीं</strong>
+            </div>
+
+            <div class="dashboard-card">
+                <span>👩‍🎓</span>
+                <h4>महिला साक्षरता</h4>
+                <strong id="femaleLiteracy">जानकारी उपलब्ध नहीं</strong>
+            </div>
+
+            <div class="dashboard-card">
+                <span>📅</span>
+                <h4>डेटा वर्ष</h4>
+                <strong id="eduYear">जानकारी उपलब्ध नहीं</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- स्वास्थ्य -->
+    <div class="dashboard-section">
+
+        <h3>🏥 स्वास्थ्य</h3>
+
+        <div class="dashboard-grid">
+
+            <div class="dashboard-card">
+                <span>🏥</span>
+                <h4>सरकारी अस्पताल</h4>
+                <strong id="hospitals">जानकारी उपलब्ध नहीं</strong>
+            </div>
+
+            <div class="dashboard-card">
+                <span>⚕️</span>
+                <h4>प्राथमिक स्वास्थ्य केंद्र</h4>
+                <strong id="phc">जानकारी उपलब्ध नहीं</strong>
+            </div>
+
+            <div class="dashboard-card">
+                <span>🩺</span>
+                <h4>उप-स्वास्थ्य केंद्र</h4>
+                <strong id="subcentres">जानकारी उपलब्ध नहीं</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- कृषि -->
+    <div class="dashboard-section">
+
+        <h3>🌾 कृषि</h3>
+
+        <div class="dashboard-grid">
+
+            <div class="dashboard-card">
+                <span>🌾</span>
+                <h4>मुख्य फसलें</h4>
+                <strong id="crops">जानकारी उपलब्ध नहीं</strong>
+            </div>
+
+            <div class="dashboard-card">
+                <span>🚜</span>
+                <h4>कृषि क्षेत्र</h4>
+                <strong id="cultivatedArea">जानकारी उपलब्ध नहीं</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- जिला प्रशासन -->
+    <div class="dashboard-section">
+
+        <h3>🏛️ जिला प्रशासन</h3>
+
+        <div id="districtInfo" class="district-info">
+            जानकारी उपलब्ध नहीं
+        </div>
+
+    </div>
+
+</section>
+
+<section id="about" class="about-section">
+
+    <h2>ℹ️ हमारे बारे में</h2>
+
+    <p>
+        <strong>Bihar Progress</strong> बिहार के 38 जिलों की
+        महत्वपूर्ण जानकारी एक ही जगह उपलब्ध कराने का प्रयास है।
+    </p>
+
+    <p>
+        यहाँ शिक्षा, स्वास्थ्य, कृषि, जनसंख्या और परिवहन
+        जैसी जानकारी को सरल रूप में प्रस्तुत किया जाता है।
+    </p>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+
+    <div class="footer-content">
+
+        <div class="footer-brand">
+            🗺️ <strong>BIHAR PROGRESS</strong>
+            <p>
+                बिहार के 38 जिलों की महत्वपूर्ण जानकारी
+                एक ही जगह उपलब्ध कराने का प्रयास।
+            </p>
+        </div>
+
+        <div class="footer-links">
+            <h3>महत्वपूर्ण लिंक</h3>
+            <a href="#home">होम</a>
+            <a href="#map">बिहार का नक्शा</a>
+            <a href="#dashboard">जिला Dashboard</a>
+            <a href="#about">हमारे बारे में</a>
+        </div>
+
+        <div class="footer-info">
+            <h3>हमारा उद्देश्य</h3>
+            <p>
+                शिक्षा, स्वास्थ्य, कृषि, जनसंख्या और
+                परिवहन से जुड़ी जानकारी को सरल तरीके से
+                लोगों तक पहुँचाना।
+            </p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 Bihar Progress | Made for Bihar ❤️
+    </div>
+
+</footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+
+    <!-- District Data -->
+
+    <script src="data.js"></script>
+
+
+    <!-- Main JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
