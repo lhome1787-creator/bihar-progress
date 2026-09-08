@@ -132,7 +132,7 @@ araria: {
     }
 },
 
-  // 2. अरवल
+// 2. अरवल
 arwal: {
     education: {
         literacyRate: 57.14,
