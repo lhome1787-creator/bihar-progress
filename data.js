@@ -198,78 +198,75 @@ arwal: {
     }
 },
 
-    // 3. औरंगाबाद
-    aurangabad: {
+  // 3. औरंगाबाद
+aurangabad: {
     education: {
-        literacyRate: "70.32%",
-        maleLiteracyRate: "80.11%",
-        femaleLiteracyRate: "59.71%",
+        literacyRate: 70.32,
+        maleLiteracyRate: 80.11,
+        femaleLiteracyRate: 59.71,
         year: 2011,
-        source: "Census 2011 / Aurangabad District Administration"
+        source: "Aurangabad District Administration / Census 2011"
     },
 
     health: {
-        governmentHospitals: "जानकारी अपडेट आवश्यक",
-        primaryHealthCentres: "जानकारी अपडेट आवश्यक",
-        healthSubCentres: "जानकारी अपडेट आवश्यक",
+        governmentHospitals: "जानकारी उपलब्ध नहीं",
+        primaryHealthCentres: "जानकारी उपलब्ध नहीं",
+        healthSubCentres: "जानकारी उपलब्ध नहीं",
         source: "Aurangabad District Administration"
     },
 
     agriculture: {
         mainCrops: "धान, गेहूँ, चना, मसूर, सरसों",
-        irrigationArea: "कृषि प्रधान क्षेत्र",
+        cultivatedArea: "जानकारी उपलब्ध नहीं",
         source: "Aurangabad District Administration"
     },
 
-    water: {
-        majorRivers: "पुनपुन, मदर, औरंगा, बताने, मोरहर",
+    roads: {
+        nationalHighway: "NH-19, NH-139",
+        stateHighway: "जानकारी उपलब्ध नहीं",
+        districtRoad: "जानकारी उपलब्ध नहीं",
+        ruralRoad: "जानकारी उपलब्ध नहीं",
         source: "Aurangabad District Administration"
     },
 
-    environment: {
-        geographicalRegion: "मगध क्षेत्र",
-        climate: "उष्णकटिबंधीय मानसूनी जलवायु",
-        source: "Aurangabad District Administration"
-    },
-
-    employment: {
-        mainEmployment: "कृषि एवं कृषि आधारित रोजगार",
-        industries: "बिजली उत्पादन, सीमेंट उद्योग, कृषि आधारित उद्योग",
-        source: "Aurangabad District Administration"
+    population: {
+        total: "25,40,073",
+        male: "13,18,684",
+        female: "12,21,389",
+        area: "3,305 sq. km",
+        density: "769 प्रति वर्ग किमी",
+        sexRatio: "926",
+        year: 2011,
+        source: "Aurangabad District Administration / Census 2011"
     },
 
     districtInfo: {
         headquarters: "औरंगाबाद",
-        area: "3,305 वर्ग किलोमीटर",
-        population: "25,40,073",
-        density: "769 व्यक्ति प्रति वर्ग किलोमीटर",
-        sexRatio: "926",
-        subdivision: "2",
-        blocks: "11",
-        panchayats: "202",
-        villages: "1884",
-        source: "Census 2011 / Aurangabad District Administration"
+        subdivisions: 2,
+        blocks: 11,
+        panchayats: 202,
+        villages: 1884,
+        source: "Aurangabad District Administration"
     },
 
     geography: {
-        location: "बिहार के दक्षिण-पश्चिमी भाग में",
+        location: "दक्षिण बिहार",
+        majorRivers: "सोन, पुनपुन, औरंगा, बताने, मोरहर, मदर",
         geographicalRegion: "मगध क्षेत्र",
-        majorRivers: "पुनपुन, मदर, औरंगा, बताने, मोरहर",
-        northernBorder: "अरवल एवं जहानाबाद",
-        southernBorder: "झारखंड",
+        northernBorder: "अरवल",
+        southernBorder: "पलामू, झारखंड",
         easternBorder: "गया",
-        westernBorder: "रोहतास एवं कैमूर क्षेत्र",
+        westernBorder: "सोन नदी के पार रोहतास",
         source: "Aurangabad District Administration"
     },
 
     transport: {
-        railwayStations: "औरंगाबाद रोड क्षेत्र के निकट स्टेशन, रफीगंज, नवीनगर रोड",
-        nationalHighway: "NH-19 एवं अन्य प्रमुख सड़क मार्ग",
-        airport: "निकटतम प्रमुख हवाई अड्डा: गया / पटना",
+        railwayStations: "अनुग्रह नारायण रोड",
+        nationalHighway: "NH-19, NH-139",
+        airport: "पटना एयरपोर्ट",
         source: "Aurangabad District Administration"
     }
 },
-
     // 4. बांका
     banka: {
     education: {
