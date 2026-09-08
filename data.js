@@ -66,70 +66,71 @@ const defaultData = (headquarters) => ({
 
 const biharData = {
 
-    // 1. अररिया
-    araria: {
-        education: {
-            literacyRate: 53.53,
-            maleLiteracyRate: 62.30,
-            femaleLiteracyRate: 43.93,
-            year: 2011,
-            source: "Census 2011 / Araria District Administration"
-        },
-
-        health: {
-            governmentHospitals: 4,
-            primaryHealthCentres: 8,
-            healthSubCentres: 224,
-            source: "Araria District Administration"
-        },
-
-        agriculture: {
-            mainCrops: "धान, मक्का, जूट",
-            cultivatedArea: "1832.11 sq. km",
-            source: "Araria District Administration"
-        },
-
-        roads: {
-            nationalHighway: "154 km",
-            stateHighway: "69 km",
-            districtRoad: "504 km",
-            ruralRoad: "4854 km",
-            source: "Government of Bihar"
-        },
-
-        population: {
-            total: "28,11,569",
-            male: "14,63,333",
-            female: "13,48,236",
-            area: "2880 sq. km",
-            density: "992",
-            sexRatio: "921",
-            year: 2011,
-            source: "Census 2011"
-        },
-
-        districtInfo: {
-            headquarters: "अररिया",
-            subdivisions: 2,
-            blocks: 9,
-            source: "Araria District Administration"
-        },
-
-        geography: {
-            location: "उत्तर बिहार",
-            majorRivers: "कोसी, परमान",
-            geographicalRegion: "उत्तर बिहार का मैदानी क्षेत्र",
-            source: "Araria District Administration"
-        },
-
-        transport: {
-            railwayStations: "अररिया कोर्ट, अररिया (R.S.)",
-            nationalHighway: "NH-57",
-            airport: "पूर्णिया एयरपोर्ट",
-            source: "Araria District Administration"
-        }
+  // 1. अररिया
+araria: {
+    education: {
+        literacyRate: "53.53%",
+        maleLiteracyRate: "62.30%",
+        femaleLiteracyRate: "43.93%",
+        year: 2011,
+        source: "Census 2011 / Araria District Administration"
     },
 
+    health: {
+        governmentHospitals: 4,
+        primaryHealthCentres: 9,
+        healthSubCentres: 224,
+        source: "Araria District Administration"
+    },
+
+    agriculture: {
+        mainCrops: "धान, मक्का, जूट",
+        cultivatedArea: "1832.11 sq. km",
+        source: "Araria District Administration"
+    },
+
+    roads: {
+        nationalHighway: "NH-57",
+        stateHighway: "जानकारी उपलब्ध नहीं",
+        districtRoad: "जानकारी उपलब्ध नहीं",
+        ruralRoad: "जानकारी उपलब्ध नहीं",
+        source: "Government of Bihar / Araria District Administration"
+    },
+
+    population: {
+        total: "28,11,569",
+        male: "14,63,333",
+        female: "13,48,236",
+        area: "2830 sq. km",
+        density: "993",
+        sexRatio: "921",
+        year: 2011,
+        source: "Census 2011 / Araria District Administration"
+    },
+
+    districtInfo: {
+        headquarters: "अररिया",
+        subdivisions: 2,
+        blocks: 9,
+        panchayats: 218,
+        villages: 751,
+        source: "Araria District Administration"
+    },
+
+    geography: {
+        location: "उत्तर-पूर्वी बिहार",
+        majorRivers: "कोसी, सुवारा, काली, परमार और कोली",
+        geographicalRegion: "उत्तर बिहार का मैदानी क्षेत्र",
+        source: "Araria District Administration"
+    },
+
+    transport: {
+        railwayStations: "अररिया कोर्ट, अररिया (R.S.)",
+        nationalHighway: "NH-57",
+        airport: "पूर्णिया एयरपोर्ट",
+        source: "Araria District Administration"
+    }
+},
 
     // 2. अरवल
     arwal: {
