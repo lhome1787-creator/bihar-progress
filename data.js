@@ -132,74 +132,68 @@ araria: {
     }
 },
 
-    // 2. अरवल
-    arwal: {
+  // 2. अरवल
+arwal: {
     education: {
-        literacyRate: "69.54%",
-        maleLiteracyRate: "81.27%",
-        femaleLiteracyRate: "56.85%",
+        literacyRate: 57.14,
+        maleLiteracyRate: 66.90,
+        femaleLiteracyRate: 46.62,
         year: 2011,
-        source: "Census 2011 / Arwal District Administration"
+        source: "Arwal District Administration / Census 2011"
     },
 
     health: {
-        governmentHospitals: "1",
-        primaryHealthCentres: "5",
-        healthSubCentres: "47",
+        governmentHospitals: "जानकारी उपलब्ध नहीं",
+        primaryHealthCentres: 5,
+        healthSubCentres: 47,
         source: "Arwal District Administration"
     },
 
     agriculture: {
         mainCrops: "धान, गेहूँ, मक्का",
-        irrigationArea: "अधिकांश कृषि क्षेत्र सिंचित",
+        cultivatedArea: "495.20 sq. km",
         source: "Arwal District Administration"
     },
 
-    water: {
-        majorRivers: "सोन नदी",
-        source: "Arwal District Administration"
+    roads: {
+        nationalHighway: "जानकारी उपलब्ध नहीं",
+        stateHighway: "जानकारी उपलब्ध नहीं",
+        districtRoad: "जानकारी उपलब्ध नहीं",
+        ruralRoad: "जानकारी उपलब्ध नहीं",
+        source: "जानकारी अपडेट की जा रही है"
     },
 
-    environment: {
-        geographicalRegion: "मगध क्षेत्र, गंगा के मैदानी क्षेत्र का हिस्सा",
-        climate: "उष्णकटिबंधीय मानसूनी जलवायु",
-        source: "Arwal District Administration"
-    },
-
-    employment: {
-        mainEmployment: "कृषि आधारित रोजगार",
-        industries: "मुख्यतः कृषि आधारित, बड़े उद्योगों की कमी",
-        source: "Arwal District Administration"
+    population: {
+        total: "7,00,843",
+        male: "3,63,497",
+        female: "3,37,346",
+        area: "634.23 sq. km",
+        density: "1105 प्रति वर्ग किमी",
+        sexRatio: "928",
+        year: 2011,
+        source: "Arwal District Administration / Census 2011"
     },
 
     districtInfo: {
         headquarters: "अरवल",
-        area: "634.23 वर्ग किलोमीटर",
-        population: "7,00,843",
-        density: "1099 व्यक्ति प्रति वर्ग किलोमीटर",
-        sexRatio: "928",
-        subdivision: "1",
-        blocks: "5",
-        panchayats: "65",
-        villages: "335",
-        source: "Census 2011 / Arwal District Administration"
+        subdivisions: 1,
+        blocks: 5,
+        panchayats: 65,
+        villages: 335,
+        source: "Arwal District Administration"
     },
 
     geography: {
-        location: "बिहार के मध्य-दक्षिणी भाग में",
-        geographicalRegion: "मगध क्षेत्र",
+        location: "दक्षिण बिहार",
         majorRivers: "सोन नदी",
-        northernBorder: "जहानाबाद एवं पटना क्षेत्र",
-        southernBorder: "औरंगाबाद",
-        easternBorder: "जहानाबाद",
-        westernBorder: "भोजपुर जिला",
+        geographicalRegion: "मगध क्षेत्र",
         source: "Arwal District Administration"
     },
 
     transport: {
-        railwayStations: "जहानाबाद, अनुग्रह नारायण रोड",
-        nationalHighway: "NH-139",
-        airport: "निकटतम प्रमुख हवाई अड्डा: पटना",
+        railwayStations: "पटना",
+        nationalHighway: "जानकारी उपलब्ध नहीं",
+        airport: "पटना एयरपोर्ट",
         source: "Arwal District Administration"
     }
 },
