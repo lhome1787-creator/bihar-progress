@@ -480,74 +480,72 @@ bhagalpur: {
         source: "Bhagalpur District Administration"
     }
 },
-    // 7. भोजपुर
-    bhojpur: {
+   // 7. भोजपुर
+bhojpur: {
     education: {
-        literacyRate: 70.47,
-        maleLiteracyRate: 81.07,
-        femaleLiteracyRate: 58.92,
+        literacyRate: 72.79,
+        maleLiteracyRate: "जानकारी उपलब्ध नहीं",
+        femaleLiteracyRate: "जानकारी उपलब्ध नहीं",
         year: 2011,
-        source: "Census 2011 / Bhojpur District Administration"
+        source: "Bhojpur District Administration / Census 2011"
     },
 
     health: {
         governmentHospitals: "जानकारी उपलब्ध नहीं",
-        primaryHealthCentres: "जानकारी उपलब्ध नहीं",
+        primaryHealthCentres: 14,
         healthSubCentres: "जानकारी उपलब्ध नहीं",
         source: "Bhojpur District Administration"
     },
 
     agriculture: {
-        mainCrops: "धान, गेहूँ, मक्का, दलहन, तिलहन एवं सब्जियां",
-        irrigationArea: "कृषि प्रधान क्षेत्र",
+        mainCrops: "धान, गेहूँ, मक्का, चना",
+        cultivatedArea: "जानकारी उपलब्ध नहीं",
         source: "Bhojpur District Administration"
     },
 
-    water: {
-        majorRivers: "गंगा, सोन, गेरुआ एवं अन्य स्थानीय नदियाँ",
-        source: "Bhojpur District Administration"
+    roads: {
+        nationalHighway: "जानकारी उपलब्ध नहीं",
+        stateHighway: "जानकारी उपलब्ध नहीं",
+        districtRoad: "जानकारी उपलब्ध नहीं",
+        ruralRoad: "जानकारी उपलब्ध नहीं",
+        source: "जानकारी अपडेट की जा रही है"
     },
 
-    environment: {
-        geographicalRegion: "मध्य बिहार का गंगा मैदानी क्षेत्र",
-        climate: "उष्णकटिबंधीय मानसूनी जलवायु",
-        source: "Bhojpur District Administration"
-    },
-
-    employment: {
-        mainEmployment: "कृषि, व्यापार एवं सेवा क्षेत्र",
-        industries: "कृषि आधारित एवं छोटे उद्योग",
-        source: "Bhojpur District Administration"
+    population: {
+        total: "27,20,155",
+        male: "जानकारी उपलब्ध नहीं",
+        female: "जानकारी उपलब्ध नहीं",
+        area: "2,395 sq. km",
+        density: "जानकारी उपलब्ध नहीं",
+        sexRatio: "जानकारी उपलब्ध नहीं",
+        year: 2011,
+        source: "Bhojpur District Administration / Census 2011"
     },
 
     districtInfo: {
         headquarters: "आरा",
-        area: "2473 वर्ग किलोमीटर",
-        population: "27,28,407",
-        density: "1103 व्यक्ति प्रति वर्ग किलोमीटर",
-        sexRatio: "907",
         subdivisions: 3,
         blocks: 14,
         panchayats: 228,
-        villages: 1228,
-        source: "Census 2011 / Bhojpur District Administration"
+        villages: 1209,
+        source: "Bhojpur District Administration"
     },
 
     geography: {
-        location: "बिहार के पश्चिमी-मध्य भाग में",
-        geographicalRegion: "गंगा एवं सोन नदी के मैदानी क्षेत्र",
+        location: "पश्चिमी बिहार",
         majorRivers: "गंगा, सोन",
-        northernBorder: "सारण एवं गंगा नदी",
+        geographicalRegion: "गंगा का मैदानी क्षेत्र",
+        northernBorder: "छपरा एवं बलिया, उत्तर प्रदेश",
         southernBorder: "रोहतास",
-        easternBorder: "पटना एवं अरवल",
+        easternBorder: "पटना, जहानाबाद एवं अरवल",
         westernBorder: "बक्सर",
         source: "Bhojpur District Administration"
     },
 
     transport: {
-        railwayStations: "आरा जंक्शन, बिहिया, कोईलवर",
-        nationalHighway: "NH-922",
-        airport: "निकटतम प्रमुख हवाई अड्डा: जयप्रकाश नारायण अंतरराष्ट्रीय हवाई अड्डा, पटना",
+        railwayStations: "आरा जंक्शन",
+        nationalHighway: "जानकारी उपलब्ध नहीं",
+        airport: "पटना एयरपोर्ट",
         source: "Bhojpur District Administration"
     }
 },
