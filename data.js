@@ -550,74 +550,72 @@ bhojpur: {
     }
 },
 
-    // 8. बक्सर
-    buxar: {
+   // 8. बक्सर
+buxar: {
     education: {
         literacyRate: 70.14,
-        maleLiteracyRate: 81.30,
-        femaleLiteracyRate: 57.80,
+        maleLiteracyRate: 80.72,
+        femaleLiteracyRate: 58.63,
         year: 2011,
-        source: "Census 2011 / Buxar District Administration"
+        source: "Buxar District Administration / Census 2011"
     },
 
     health: {
-        governmentHospitals: "जानकारी उपलब्ध नहीं",
-        primaryHealthCentres: "जानकारी उपलब्ध नहीं",
+        governmentHospitals: 2,
+        primaryHealthCentres: 8,
         healthSubCentres: "जानकारी उपलब्ध नहीं",
         source: "Buxar District Administration"
     },
 
     agriculture: {
-        mainCrops: "धान, गेहूँ, मक्का, दलहन, तिलहन एवं सब्जियां",
-        irrigationArea: "कृषि प्रधान क्षेत्र",
+        mainCrops: "धान, गेहूँ, मक्का, दलहन एवं तिलहन",
+        cultivatedArea: "जानकारी उपलब्ध नहीं",
         source: "Buxar District Administration"
     },
 
-    water: {
-        majorRivers: "गंगा, कर्मनाशा एवं अन्य स्थानीय नदियाँ",
+    roads: {
+        nationalHighway: "NH-30",
+        stateHighway: "जानकारी उपलब्ध नहीं",
+        districtRoad: "जानकारी उपलब्ध नहीं",
+        ruralRoad: "जानकारी उपलब्ध नहीं",
         source: "Buxar District Administration"
     },
 
-    environment: {
-        geographicalRegion: "पश्चिमी बिहार का गंगा मैदानी क्षेत्र",
-        climate: "उष्णकटिबंधीय मानसूनी जलवायु",
-        source: "Buxar District Administration"
-    },
-
-    employment: {
-        mainEmployment: "कृषि, व्यापार एवं सेवा क्षेत्र",
-        industries: "कृषि आधारित एवं छोटे उद्योग",
-        source: "Buxar District Administration"
+    population: {
+        total: "17,06,352",
+        male: "8,87,977",
+        female: "8,18,375",
+        area: "1,624 sq. km",
+        density: "1051 प्रति वर्ग किमी",
+        sexRatio: "922",
+        year: 2011,
+        source: "Buxar District Administration / Census 2011"
     },
 
     districtInfo: {
         headquarters: "बक्सर",
-        area: "1703 वर्ग किलोमीटर",
-        population: "17,06,352",
-        density: "1002 व्यक्ति प्रति वर्ग किलोमीटर",
-        sexRatio: "922",
         subdivisions: 2,
         blocks: 11,
         panchayats: 142,
-        villages: 1088,
-        source: "Census 2011 / Buxar District Administration"
+        villages: 1142,
+        source: "Buxar District Administration"
     },
 
     geography: {
-        location: "बिहार के पश्चिमी भाग में",
-        geographicalRegion: "गंगा नदी का उपजाऊ मैदानी क्षेत्र",
-        majorRivers: "गंगा, कर्मनाशा",
-        northernBorder: "उत्तर प्रदेश",
-        southernBorder: "कैमूर",
+        location: "पश्चिमी बिहार",
+        majorRivers: "गंगा",
+        geographicalRegion: "गंगा का मैदानी क्षेत्र",
+        northernBorder: "बलिया, उत्तर प्रदेश",
+        southernBorder: "रोहतास",
         easternBorder: "भोजपुर",
-        westernBorder: "उत्तर प्रदेश",
+        westernBorder: "गाजीपुर एवं बलिया, उत्तर प्रदेश",
         source: "Buxar District Administration"
     },
 
     transport: {
-        railwayStations: "बक्सर, डुमरांव",
-        nationalHighway: "NH-922",
-        airport: "निकटतम प्रमुख हवाई अड्डा: वाराणसी / पटना",
+        railwayStations: "बक्सर जंक्शन",
+        nationalHighway: "NH-30",
+        airport: "पटना एयरपोर्ट / गया एयरपोर्ट",
         source: "Buxar District Administration"
     }
 },
