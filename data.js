@@ -692,73 +692,73 @@ darbhanga: {
 },
 
     // 10. पूर्वी चंपारण
-    eastChamparan: {
+eastChamparan: {
     education: {
         literacyRate: 55.79,
-        maleLiteracyRate: 67.34,
-        femaleLiteracyRate: 43.46,
+        maleLiteracyRate: 65.34,
+        femaleLiteracyRate: 45.12,
         year: 2011,
-        source: "Census 2011 / East Champaran District Administration"
+        source: "East Champaran District Administration / Census 2011"
     },
 
     health: {
-        governmentHospitals: "जानकारी उपलब्ध नहीं",
-        primaryHealthCentres: "जानकारी उपलब्ध नहीं",
-        healthSubCentres: "जानकारी उपलब्ध नहीं",
+        governmentHospitals: 1,
+        primaryHealthCentres: 27,
+        healthSubCentres: 400,
+        additionalPHCs: 73,
+        villageHealthSubCentres: 410,
         source: "East Champaran District Administration"
     },
 
     agriculture: {
-        mainCrops: "धान, गेहूँ, मक्का, गन्ना, दलहन, तिलहन एवं सब्जियां",
-        irrigationArea: "कृषि प्रधान क्षेत्र",
+        mainCrops: "धान, गेहूँ, मक्का, गन्ना, दलहन एवं तिलहन",
+        cultivatedArea: "जानकारी उपलब्ध नहीं",
         source: "East Champaran District Administration"
     },
 
-    water: {
-        majorRivers: "गंडक, बूढ़ी गंडक, लालबकेया, बागमती एवं अन्य स्थानीय नदियाँ",
-        source: "East Champaran District Administration"
+    roads: {
+        nationalHighway: "जानकारी उपलब्ध नहीं",
+        stateHighway: "जानकारी उपलब्ध नहीं",
+        districtRoad: "जानकारी उपलब्ध नहीं",
+        ruralRoad: "जानकारी उपलब्ध नहीं",
+        source: "जानकारी अपडेट की जा रही है"
     },
 
-    environment: {
-        geographicalRegion: "उत्तर बिहार का तराई एवं उपजाऊ मैदानी क्षेत्र",
-        climate: "उष्णकटिबंधीय मानसूनी जलवायु",
-        source: "East Champaran District Administration"
-    },
-
-    employment: {
-        mainEmployment: "कृषि एवं कृषि आधारित रोजगार",
-        industries: "चीनी उद्योग, कृषि आधारित एवं छोटे उद्योग",
-        source: "East Champaran District Administration"
+    population: {
+        total: "50,99,371",
+        male: "26,81,209",
+        female: "24,18,162",
+        area: "3,968 sq. km",
+        density: "1285 प्रति वर्ग किमी",
+        sexRatio: "902",
+        year: 2011,
+        source: "East Champaran District Administration / Census 2011"
     },
 
     districtInfo: {
         headquarters: "मोतिहारी",
-        area: "3968 वर्ग किलोमीटर",
-        population: "50,99,371",
-        density: "1285 व्यक्ति प्रति वर्ग किलोमीटर",
-        sexRatio: "901",
         subdivisions: 6,
         blocks: 27,
-        panchayats: 405,
+        panchayats: 443,
         villages: 1344,
-        source: "Census 2011 / East Champaran District Administration"
+        source: "East Champaran District Administration"
     },
 
     geography: {
-        location: "बिहार के उत्तर-पश्चिमी भाग में",
-        geographicalRegion: "चंपारण का तराई एवं मैदानी क्षेत्र",
-        majorRivers: "गंडक, बूढ़ी गंडक, लालबकेया, बागमती",
+        location: "उत्तर-पूर्वी बिहार",
+        majorRivers: "बूढ़ी गंडक, सिकरहना, लालबकेया",
+        geographicalRegion: "उत्तर बिहार का मैदानी क्षेत्र",
         northernBorder: "नेपाल",
-        southernBorder: "मुजफ्फरपुर एवं वैशाली",
-        easternBorder: "शिवहर एवं सीतामढ़ी",
-        westernBorder: "पश्चिम चंपारण",
+        southernBorder: "मुजफ्फरपुर एवं शिवहर",
+        easternBorder: "सीतामढ़ी एवं शिवहर",
+        westernBorder: "पश्चिमी चंपारण",
         source: "East Champaran District Administration"
     },
 
     transport: {
-        railwayStations: "मोतिहारी, बापूधाम मोतिहारी, चकिया, रक्सौल",
-        nationalHighway: "NH-27",
-        airport: "निकटतम प्रमुख हवाई अड्डा: कुशीनगर / पटना",
+        railwayStations: "मोतिहारी, बापूधाम मोतिहारी, रक्सौल",
+        nationalHighway: "जानकारी उपलब्ध नहीं",
+        airport: "पटना एयरपोर्ट",
         source: "East Champaran District Administration"
     }
 },
