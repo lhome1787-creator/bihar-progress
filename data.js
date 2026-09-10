@@ -412,7 +412,7 @@ aurangabad: {
 },
 
     // 6. भागलपुर
-    bhagalpur: {
+bhagalpur: {
     education: {
         literacyRate: 63.14,
         maleLiteracyRate: "जानकारी उपलब्ध नहीं",
@@ -429,48 +429,46 @@ aurangabad: {
     },
 
     agriculture: {
-        mainCrops: "धान, गेहूँ, मक्का, दलहन, तिलहन एवं सब्जियां",
-        irrigationArea: "कृषि प्रधान क्षेत्र",
+        mainCrops: "धान, गेहूँ, मक्का, जौ एवं तिलहन",
+        cultivatedArea: "जानकारी उपलब्ध नहीं",
         source: "Bhagalpur District Administration"
     },
 
-    water: {
-        majorRivers: "गंगा, कोसी एवं अन्य स्थानीय नदियाँ",
+    roads: {
+        nationalHighway: "NH-80",
+        stateHighway: "जानकारी उपलब्ध नहीं",
+        districtRoad: "जानकारी उपलब्ध नहीं",
+        ruralRoad: "जानकारी उपलब्ध नहीं",
         source: "Bhagalpur District Administration"
     },
 
-    environment: {
-        geographicalRegion: "अंग क्षेत्र एवं गंगा के दक्षिणी मैदानी क्षेत्र",
-        climate: "उष्णकटिबंधीय मानसूनी जलवायु",
-        source: "Bhagalpur District Administration"
-    },
-
-    employment: {
-        mainEmployment: "कृषि, रेशम उद्योग, व्यापार एवं सेवा क्षेत्र",
-        industries: "भागलपुरी सिल्क, कपड़ा एवं कृषि आधारित उद्योग",
-        source: "Bhagalpur District Administration"
+    population: {
+        total: "30,37,766",
+        male: "16,15,663",
+        female: "14,22,103",
+        area: "2,569 sq. km",
+        density: "1182 प्रति वर्ग किमी",
+        sexRatio: "880",
+        year: 2011,
+        source: "Bhagalpur District Administration / Census 2011"
     },
 
     districtInfo: {
         headquarters: "भागलपुर",
-        area: "2569 वर्ग किलोमीटर",
-        population: "30,37,766",
-        density: "1183 व्यक्ति प्रति वर्ग किलोमीटर",
-        sexRatio: "879",
         subdivisions: 3,
         blocks: 16,
         panchayats: 242,
-        villages: 1514,
-        source: "Census 2011 / Bhagalpur District Administration"
+        villages: 1515,
+        source: "Bhagalpur District Administration"
     },
 
     geography: {
-        location: "बिहार के पूर्वी भाग में",
-        geographicalRegion: "अंग क्षेत्र",
+        location: "दक्षिण-पूर्वी बिहार",
         majorRivers: "गंगा, कोसी",
-        northernBorder: "पूर्णिया एवं कटिहार क्षेत्र",
+        geographicalRegion: "गंगा का मैदानी क्षेत्र",
+        northernBorder: "खगड़िया, मधेपुरा, पूर्णिया एवं कटिहार",
         southernBorder: "बांका एवं झारखंड",
-        easternBorder: "कटिहार",
+        easternBorder: "कटिहार एवं झारखंड",
         westernBorder: "मुंगेर",
         source: "Bhagalpur District Administration"
     },
@@ -478,11 +476,10 @@ aurangabad: {
     transport: {
         railwayStations: "भागलपुर जंक्शन, कहलगांव, नवगछिया",
         nationalHighway: "NH-80",
-        airport: "निकटतम प्रमुख हवाई अड्डा: देवघर / पटना",
+        airport: "देवघर एयरपोर्ट / पटना एयरपोर्ट",
         source: "Bhagalpur District Administration"
     }
 },
-
     // 7. भोजपुर
     bhojpur: {
     education: {
