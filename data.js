@@ -620,63 +620,62 @@ buxar: {
     }
 },
 
-    // 9. दरभंगा
-    darbhanga: {
+   // 9. दरभंगा
+darbhanga: {
     education: {
-        literacyRate: 56.56,
-        maleLiteracyRate: 66.32,
-        femaleLiteracyRate: 46.09,
+        literacyRate: 44.00,
+        maleLiteracyRate: "जानकारी उपलब्ध नहीं",
+        femaleLiteracyRate: "जानकारी उपलब्ध नहीं",
         year: 2011,
-        source: "Census 2011 / Darbhanga District Administration"
+        source: "Darbhanga District Administration / Census 2011"
     },
 
     health: {
-        governmentHospitals: "जानकारी उपलब्ध नहीं",
-        primaryHealthCentres: "जानकारी उपलब्ध नहीं",
-        healthSubCentres: "जानकारी उपलब्ध नहीं",
+        governmentHospitals: "1 Medical College + 2 Referral Hospitals",
+        primaryHealthCentres: 13,
+        healthSubCentres: 261,
+        additionalPHCs: 37,
         source: "Darbhanga District Administration"
     },
 
     agriculture: {
-        mainCrops: "धान, गेहूँ, मक्का, दलहन, तिलहन एवं सब्जियां",
-        irrigationArea: "कृषि प्रधान क्षेत्र",
+        mainCrops: "धान, गेहूँ, मक्का, दलहन एवं तिलहन",
+        cultivatedArea: "जानकारी उपलब्ध नहीं",
         source: "Darbhanga District Administration"
     },
 
-    water: {
-        majorRivers: "बागमती, कमला, करेह, अधवारा समूह की नदियाँ",
-        source: "Darbhanga District Administration"
+    roads: {
+        nationalHighway: "जानकारी उपलब्ध नहीं",
+        stateHighway: "जानकारी उपलब्ध नहीं",
+        districtRoad: "जानकारी उपलब्ध नहीं",
+        ruralRoad: "जानकारी उपलब्ध नहीं",
+        source: "जानकारी अपडेट की जा रही है"
     },
 
-    environment: {
-        geographicalRegion: "मिथिला क्षेत्र का उपजाऊ मैदानी एवं बाढ़ प्रभावित क्षेत्र",
-        climate: "उष्णकटिबंधीय मानसूनी जलवायु",
-        source: "Darbhanga District Administration"
-    },
-
-    employment: {
-        mainEmployment: "कृषि, व्यापार, शिक्षा एवं सेवा क्षेत्र",
-        industries: "कृषि आधारित, खाद्य प्रसंस्करण एवं छोटे उद्योग",
-        source: "Darbhanga District Administration"
+    population: {
+        total: "39,21,971",
+        male: "जानकारी उपलब्ध नहीं",
+        female: "जानकारी उपलब्ध नहीं",
+        area: "2,279 sq. km",
+        density: "1101 प्रति वर्ग किमी",
+        sexRatio: "910",
+        year: 2011,
+        source: "Darbhanga District Administration / Census 2011"
     },
 
     districtInfo: {
         headquarters: "दरभंगा",
-        area: "2279 वर्ग किलोमीटर",
-        population: "39,37,385",
-        density: "1728 व्यक्ति प्रति वर्ग किलोमीटर",
-        sexRatio: "911",
         subdivisions: 3,
         blocks: 18,
         panchayats: 324,
         villages: 1269,
-        source: "Census 2011 / Darbhanga District Administration"
+        source: "Darbhanga District Administration"
     },
 
     geography: {
         location: "उत्तर बिहार",
-        geographicalRegion: "मिथिला क्षेत्र",
-        majorRivers: "बागमती, कमला, करेह एवं अधवारा समूह की नदियाँ",
+        majorRivers: "बागमती, कमला एवं अधवारा समूह की नदियां",
+        geographicalRegion: "मिथिला का मैदानी क्षेत्र",
         northernBorder: "मधुबनी",
         southernBorder: "समस्तीपुर",
         easternBorder: "सहरसा",
@@ -685,9 +684,9 @@ buxar: {
     },
 
     transport: {
-        railwayStations: "दरभंगा जंक्शन, लहेरियासराय, सकरी जंक्शन",
-        nationalHighway: "NH-27",
-        airport: "दरभंगा हवाई अड्डा",
+        railwayStations: "दरभंगा जंक्शन",
+        nationalHighway: "जानकारी उपलब्ध नहीं",
+        airport: "दरभंगा एयरपोर्ट",
         source: "Darbhanga District Administration"
     }
 },
