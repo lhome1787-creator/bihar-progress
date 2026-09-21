@@ -763,28 +763,27 @@ eastChamparan: {
     }
 },
 
-    // 11. गया
-   gaya: {
-
+// 11. गया
+gaya: {
     education: {
-        literacyRate: 54.8,
-        maleLiteracyRate: 63.0,
-        femaleLiteracyRate: 46.1,
+        literacyRate: 54.80,
+        maleLiteracyRate: 63.00,
+        femaleLiteracyRate: 46.10,
         year: 2011,
-        source: "Census 2011 / Gaya District Administration"
+        source: "Gaya District Administration / Census 2011"
     },
 
     health: {
-        governmentHospitals: 1,
-        primaryHealthCentres: 24,
+        governmentHospitals: "जानकारी उपलब्ध नहीं",
+        primaryHealthCentres: "जानकारी उपलब्ध नहीं",
         healthSubCentres: "जानकारी उपलब्ध नहीं",
-        source: "Magadh Division Statistics / Gaya"
+        source: "Gaya District Administration"
     },
 
     agriculture: {
-        mainCrops: "धान, गेहूं, आलू, दलहन",
-        cultivatedArea: "169111 hectares",
-        source: "Magadh Division Statistics / Gaya"
+        mainCrops: "धान, गेहूँ, मक्का, दलहन एवं तिलहन",
+        cultivatedArea: "जानकारी उपलब्ध नहीं",
+        source: "Gaya District Administration"
     },
 
     roads: {
@@ -792,42 +791,40 @@ eastChamparan: {
         stateHighway: "जानकारी उपलब्ध नहीं",
         districtRoad: "जानकारी उपलब्ध नहीं",
         ruralRoad: "जानकारी उपलब्ध नहीं",
-        source: "Government Data - अपडेट किया जाएगा"
+        source: "जानकारी अपडेट की जा रही है"
     },
 
     population: {
         total: "43,79,383",
         male: "22,66,865",
         female: "21,12,518",
-        area: "4976 sq. km",
-        density: "880 प्रति वर्ग किमी",
+        area: "4,976 sq. km",
+        density: "जानकारी उपलब्ध नहीं",
         sexRatio: "932",
         year: 2011,
-        source: "Census 2011 / Gaya District Administration"
+        source: "Gaya District Administration / Census 2011"
     },
 
     districtInfo: {
         headquarters: "गया",
-        area: "4976 वर्ग किमी",
         subdivisions: 4,
         blocks: 24,
+        panchayats: "जानकारी उपलब्ध नहीं",
         villages: 2886,
-        panchayats: 332,
         source: "Gaya District Administration"
     },
 
     geography: {
         location: "दक्षिण बिहार",
+        majorRivers: "फल्गु, निरंजना एवं मोरहर",
         geographicalRegion: "मगध क्षेत्र",
-        majorRivers: "फल्गु, निरंजना, मोरहर",
-        northernBorder: "जहानाबाद",
-        source: "Gaya District Administration / Magadh Division"
+        source: "Gaya District Administration"
     },
 
     transport: {
-        railwayStations: "गया जंक्शन, मानपुर जंक्शन",
+        railwayStations: "गया जंक्शन",
         nationalHighway: "जानकारी उपलब्ध नहीं",
-        airport: "गया अंतरराष्ट्रीय हवाई अड्डा",
+        airport: "गया अंतरराष्ट्रीय एयरपोर्ट",
         source: "Gaya District Administration"
     }
 },
